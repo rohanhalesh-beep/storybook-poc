@@ -23,16 +23,17 @@ cd storybook-poc
 
 # Install dependencies
 npm install
-
-# Install Storybook
-npm install @storybook/react-native @storybook/addon-ondevice-actions --save-dev
 ```
 
 ## 🛠 Development
 
-### Running Storybook
+### Running the App
 ```bash
-npm run storybook
+# Start Metro bundler
+npm start
+
+# Run on Android
+npm run android
 ```
 
 ### Available Components
@@ -40,7 +41,7 @@ npm run storybook
 2. **Input** - Styled input with multiple variants
 3. **Button** - Interactive button component
 
-## 📚 Storybook Documentation
+## 📚 Documentation
 
 Browse component stories at:
 ```bash
